@@ -1,3 +1,15 @@
+/*
+Name: index.js
+Description: Entry point for the Node.js/Express backend.
+Purpose: This file is responsible for setting up the Express server, defining routes, and initiating the connection to the MongoDB database.
+
+Components/Functions to Highlight:
+1. Express Server Setup: Initializes the Express server and sets up middleware to handle JSON requests.
+2. MongoDB Connection: Requires `db.js` to establish a connection to MongoDB.
+3. Routes: Defines API endpoints (currently only the root route as a placeholder).
+4. Server Listening: Starts the server on a specified port (e.g., 5000) and listens for incoming HTTP requests.
+*/
+
 // Import the Express library to create the server
 const express = require('express');
 
